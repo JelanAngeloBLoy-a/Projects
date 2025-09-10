@@ -9,7 +9,7 @@ int main()
 	int low=0, up=N-1, target;
 	cout<<"Insert number target here"<<endl;
 	cin>> target;
-    bool found = true;
+    bool found = false;
     int j=0;
     int origindex=0;
     for(int i=0;i<N;i++){
@@ -41,7 +41,7 @@ int main()
 		}
 
 	}
-if (!found) {
+if (found=false) {
         cout << "Search element is not found" << endl;
     }
 
