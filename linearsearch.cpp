@@ -18,6 +18,7 @@ int main()
 	    
 	    else{
 	        cout<<"Searching is Unsuccessful"<<endl;
+			break;
 	        
 	    }
 	    I++;
