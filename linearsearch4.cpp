@@ -13,11 +13,12 @@ int main()
 	while(I<=N){
 	    if(Item==Data[I]){
 	        cout<<"Searching is Successful"<<endl;
+	        cout<<"Found at index:"<<"["<<I<<"]"<<endl;
 	        break;
 	    }
 	    
 	    else{
-	        cout<<"Searching is Unsuccessful"<<endl;
+	        cout<<"it is not existing"<<endl;
 	        
 	    }
 	    I++;
