@@ -15,8 +15,7 @@ int main()
     }
     cout<<" "<<endl;
     cout<<"Your index:"<<endl;
-     cout<<" "<<endl;
-      cout<<" "<<endl;
+     
     for(int j=0;j<n;j++){
         
         cout<<arr[j]<<" ";
