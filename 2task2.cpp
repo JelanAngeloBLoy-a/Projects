@@ -31,13 +31,12 @@ int main()
     cout<<" "<<endl;
 	cout<<"Insert an item to find: ";
 	cin>>Item;
-	while(I<N){
-	    
-	    if(Item==-1){
+	
+	 if(Item==-1){ //remember it is always outside of that while(I<N) loop or else for some reason it wont read it
 	        
 	        break;
 	    }
-	    
+	while(I<N){
 	    if(Item==arr[I]){
 	        cout<<"Founded!"<<endl;
 	        cout<<"The value is in the number "<<I+1<<" position "<<endl;
