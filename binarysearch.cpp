@@ -7,7 +7,7 @@ int main()
 	int low=0, up=N-1, target;
 	cout<<"Insert number target here"<<endl;
 	cin>> target;
-    bool found = true; 
+    bool found = false; 
 
 	while(low<=up) {
 		int mid=(low+up)/2;
@@ -15,6 +15,7 @@ int main()
 		if(target==Data[mid]) {
 
 			cout<<"Search element is found!"<<endl;
+			found=true;
 			break;
 		}
 
