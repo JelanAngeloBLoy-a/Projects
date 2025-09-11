@@ -33,6 +33,8 @@ int main()
 	cin>>Item;
 	
 	 if(Item==-1){ //remember it is always outside of that while(I<N) loop or else for some reason it wont read it
+		 //avoid passive reading
+		 //avoid passively reading the code pls for sake huhu
 	        
 	        break;
 	    }
