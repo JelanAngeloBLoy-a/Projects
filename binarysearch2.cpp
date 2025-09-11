@@ -7,7 +7,8 @@ int main()
 	int Data[]= {12, 46, 16, 15, 18, 55, 20, 72, 13, 8, 23};
 	int N = sizeof(Data) / sizeof(Data[0]);
 	int low=0, up=N-1, target;
-	cout<<"Insert number target here"<<endl;
+	cout<<"Binary Search"<<endl;
+	cout<<"Insert number target here: ";
 	cin>> target;
     bool found = false;
     int j=0;
@@ -19,7 +20,7 @@ int main()
         }
         
     }
-    
+    // rearange data in ascending order
     sort(Data, Data + N);
 
 	while(low<=up) {
